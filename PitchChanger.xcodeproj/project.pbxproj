@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CDAB90941B23DD35001DD6B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB90931B23DD35001DD6B0 /* AppDelegate.swift */; };
-		CDAB90961B23DD35001DD6B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB90951B23DD35001DD6B0 /* ViewController.swift */; };
+		CDAB90961B23DD35001DD6B0 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB90951B23DD35001DD6B0 /* RecordSoundsViewController.swift */; };
 		CDAB90991B23DD35001DD6B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAB90971B23DD35001DD6B0 /* Main.storyboard */; };
 		CDAB909B1B23DD35001DD6B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAB909A1B23DD35001DD6B0 /* Images.xcassets */; };
 		CDAB909E1B23DD35001DD6B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDAB909C1B23DD35001DD6B0 /* LaunchScreen.xib */; };
 		CDAB90AA1B23DD36001DD6B0 /* PitchChangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB90A91B23DD36001DD6B0 /* PitchChangerTests.swift */; };
+		CDCE33421B279BF100AD8DF4 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCE33411B279BF100AD8DF4 /* PlaySoundsViewController.swift */; };
+		CDCE33461B27A08000AD8DF4 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDCE33451B27A08000AD8DF4 /* movie_quote.mp3 */; };
+		CDCE33481B27B08200AD8DF4 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCE33471B27B08200AD8DF4 /* RecordedAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		CDAB908E1B23DD35001DD6B0 /* PitchChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAB90921B23DD35001DD6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDAB90931B23DD35001DD6B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDAB90951B23DD35001DD6B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDAB90951B23DD35001DD6B0 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		CDAB90981B23DD35001DD6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDAB909A1B23DD35001DD6B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDAB909D1B23DD35001DD6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CDAB90A31B23DD36001DD6B0 /* PitchChangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchChangerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAB90A81B23DD36001DD6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDAB90A91B23DD36001DD6B0 /* PitchChangerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchChangerTests.swift; sourceTree = "<group>"; };
+		CDCE33411B279BF100AD8DF4 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		CDCE33451B27A08000AD8DF4 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
+		CDCE33471B27B08200AD8DF4 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +84,13 @@
 			isa = PBXGroup;
 			children = (
 				CDAB90931B23DD35001DD6B0 /* AppDelegate.swift */,
-				CDAB90951B23DD35001DD6B0 /* ViewController.swift */,
+				CDAB90951B23DD35001DD6B0 /* RecordSoundsViewController.swift */,
+				CDCE33471B27B08200AD8DF4 /* RecordedAudio.swift */,
 				CDAB90971B23DD35001DD6B0 /* Main.storyboard */,
 				CDAB909A1B23DD35001DD6B0 /* Images.xcassets */,
 				CDAB909C1B23DD35001DD6B0 /* LaunchScreen.xib */,
 				CDAB90911B23DD35001DD6B0 /* Supporting Files */,
+				CDCE33411B279BF100AD8DF4 /* PlaySoundsViewController.swift */,
 			);
 			path = PitchChanger;
 			sourceTree = "<group>";
@@ -90,6 +98,7 @@
 		CDAB90911B23DD35001DD6B0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CDCE33451B27A08000AD8DF4 /* movie_quote.mp3 */,
 				CDAB90921B23DD35001DD6B0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +203,7 @@
 			files = (
 				CDAB90991B23DD35001DD6B0 /* Main.storyboard in Resources */,
 				CDAB909E1B23DD35001DD6B0 /* LaunchScreen.xib in Resources */,
+				CDCE33461B27A08000AD8DF4 /* movie_quote.mp3 in Resources */,
 				CDAB909B1B23DD35001DD6B0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDAB90961B23DD35001DD6B0 /* ViewController.swift in Sources */,
+				CDCE33481B27B08200AD8DF4 /* RecordedAudio.swift in Sources */,
+				CDAB90961B23DD35001DD6B0 /* RecordSoundsViewController.swift in Sources */,
+				CDCE33421B279BF100AD8DF4 /* PlaySoundsViewController.swift in Sources */,
 				CDAB90941B23DD35001DD6B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +421,7 @@
 				CDAB90AF1B23DD36001DD6B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDAB90B01B23DD36001DD6B0 /* Build configuration list for PBXNativeTarget "PitchChangerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				CDAB90B21B23DD36001DD6B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
